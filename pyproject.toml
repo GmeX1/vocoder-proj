@@ -1,0 +1,30 @@
+[project]
+name = "vocoder"
+version = "0.1.0"
+description = "Вокодер реального времени на python"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy>=2.1",
+    "scipy>=1.14",
+    "soundfile>=0.12",
+]
+
+[project.scripts]
+vocoder = "vocoder.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pesq>=0.0.4",
+    "pystoi>=0.4",
+    "matplotlib>=3.9",
+    "praat-parselmouth>=0.4.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vocoder"]

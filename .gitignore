@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local dev files (notes, CLAUDE.md, temp) — never commit
+antigit/
+CLAUDE.md
+
+# Zed editor
+.zed/
+
+# Local datasets and recordings: only the test set, current results and A/B files are tracked
+data/*
+!data/testset/
+!data/out/
+data/out/*
+!data/out/lpc10/
+!data/ab/
