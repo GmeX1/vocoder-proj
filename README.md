@@ -36,11 +36,11 @@ PESQ - оценка качества (шкала примерно 1-4.5), STOI -
 
 Мужской голос, шумная запись (`data/testset/m03.wav`):
 
-[ВСТАВИТЬ ВИДЕО МУЖ]
+https://github.com/user-attachments/assets/a12f2bca-4845-40ad-840c-c67de69a20fd
 
 Женский голос (`data/testset/f07.wav`):
 
-[ВСТАВИТЬ ВИДЕО ЖЕН]
+https://github.com/user-attachments/assets/0a6117d6-9422-4df4-b813-2614d13916b5
 
 ## Установка и запуск
 
